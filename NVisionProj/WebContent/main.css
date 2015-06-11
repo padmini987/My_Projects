@@ -1,0 +1,421 @@
+body {
+	background: #E6E6E6;
+	font-family: verdana,Arial,Tahoma,sans-serif;
+	font-size: 18px;
+	overflow: auto;
+}
+#id_wrapper {
+	margin: 0px auto;
+	max-width: 1030px;
+	width: 100%;
+	background: white;
+	border: 1px solid #992626;
+	border-radius: 5px;
+	box-shadow: 0 0 10px 0 rgba(12, 3, 25, 0.8);
+}
+#callout {
+	width: 100%;
+	height: auto;
+	background: #992626;
+	overflow: hidden;
+}
+#callout p {
+	text-align: right;
+	font-size: 13px;
+	color: #E6E6E6;
+	padding: 0.1% 5% 0 0;
+}
+header {
+	width: 96%;
+	min-height: 75px;
+	padding: 5px;
+	text-align: left;
+}
+header img {
+	border-radius: 10px;
+	text-align: center;
+}
+nav ul.cssMenu {
+	list-style: none;
+	margin: 0;
+	padding-left: 80px;
+}
+nav ul .some {
+	border: 1px solid #992626;
+	width: 18%;
+	float: left;
+}
+nav ul li a {
+	background: #DEDEDE;
+	display: block;
+	padding: 5% 12%;
+	font-weight: bold;
+	font-size: 18px;
+	color: #992626;
+	text-decoration: none;
+	text-align: center;
+}
+nav ul li a:hover {
+	background-color: #992626;
+	color: #DEDEDE;
+}
+ul {
+	list-style:none;
+	margin:0;
+	padding:0;
+	position: relative;
+	z-index: 10;
+}
+ul.cssMenu ul 						
+{ 
+        display:none; /*initially menu item is hidden*/
+        position: absolute; /*absolute positioning is important for menu to float*/
+}
+/* Hover effect for menu*/
+ul.cssMenu li:hover > ul 			
+{ 
+	display:block;
+}
+ul.dog li a{
+	font-size: 13px;
+	border-bottom: 1px solid #992626;
+	border-top: 1px solid #992626;
+}
+.panel img{
+	width: 100%;
+	max-width: 1030px;
+	height: 398px;
+	border-top: 1px solid #992626;
+	border-bottom: 1px solid #992626;
+}
+.section {
+	width: 21%;
+	float: left;
+	margin: 2%;
+	text-align: justify;
+}
+h1, h3 {
+	text-align: center;
+	padding-left: 5%;
+	color: #992626;
+}
+p {
+	padding: 2%;
+	color: #992626;
+}
+.section img {
+	text-align: center;
+	max-width: 100%;
+	height: 150px;
+	width: auto;
+}
+#more {
+	margin-left: 42%;
+	font: bold 15px Arial;
+	text-decoration: none;
+	background-color: #992626;
+	color: #DEDEDE;
+	padding: 4px 10px 4px 10px;
+	border-top: 1px solid #CCCCCC;
+	border-right: 1px solid #333333;
+	border-bottom: 1px solid #333333;
+	border-left: 1px solid #CCCCCC;
+	border-radius: 5px;
+}
+footer {
+	background: #992626;
+	width: 100%;
+	overflow: hidden;
+}
+footer p, footer h3  {
+	color: #DEDEDE;
+	align: center;
+}
+footer p a {
+	color: #DEDEDE;
+	text-decoration : none;
+}
+.i img {
+	height: 50px;
+	width: 50px
+}
+.section1 {
+	width: 29%;
+	float: left;
+	margin: 2%;
+	text-align: center;
+}
+footer ul li {
+	width: 18%;
+	float: left;
+	margin: 10px;
+}
+footer ul {
+		margin-left: 15%;
+}
+#belowfoot {
+	font:11px Arial;
+}
+#belowfoot a {
+	text-decoration: none;
+	color: black;
+}
+
+/*  other pages  */
+#long {
+	position: relative;
+	margin-bottom: 3px;
+}	
+#long img {
+	border-top: 1px solid #992626;
+	border-bottom: 1px solid #992626;
+	height: 200px;
+	width: 100%;
+}
+#spanname {
+	color: white;
+	font: bold 20px Helvetica, Sans-Serif;
+	background: rgba(0,0,0,0.5);
+	padding: 0.8%;
+	display: block;
+	width: 98.4%;
+	position: absolute;
+	bottom: 5px;
+}
+#aside1 {
+	float: left;
+	width: 23%;
+	height: auto;
+}
+ul.sidenames a{
+	background: #DEDEDE;
+	color: #992626;
+	display: block;
+	text-decoration: none;
+	border-bottom: 1px solid #992626;
+	border-top: 1px solid #992626;
+	vertical-align: center;
+	padding: 5px;
+}
+ul.sidenames a:hover{
+	background: #992626;
+	color: #DEDEDE;
+}
+#table {
+	border-left: 1px solid black;
+	height: 585px;
+	width: 25%;
+}
+#center {
+	float: left;
+	width: 50%;
+	height: auto;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+#center p, #tab p{
+	text-align: justify;
+	font: 13px arial, sans-serif;
+	color: #282828;
+	padding: 0 0 0 0;
+}
+#list {
+	position: relative;
+	color: #2828282;
+	background: white;
+	margin-top: 10px;
+	margin-left: 20px;
+	font: 13px arial, sans-serif;
+	list-style: none;
+	content: \25BA \0020;
+}
+#list li:before {
+	content: "\25BA \0020";
+	color: #992626;
+}
+#aside2 {
+	float: left;
+	width: 23%;
+	height: auto;
+}
+#tabdata {
+	position: absolute;
+	margin-left: 30px;
+	border: 1px solid black;
+	margin-top: 30px;
+}
+#centerPP{
+	margin-left: 5%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+}
+#centerPP p{
+	text-align: justify;
+	font: 13px arial, sans-serif;
+	color: #282828;
+}
+#flow {
+	width: 80%;
+	height: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+#oraerpimg:hover {
+	background-color: white;
+}
+
+
+
+#mygallery-paginate  span{
+	position: absolute;
+	top: 372px;
+	left: 5px;
+}
+
+#left {
+	float: left;
+	width: 50%;
+}
+#tab{
+	margin-left: 30%;	
+	margin-top: 11%;
+}
+
+#map {
+	float: left;
+	margin-bottom: 15px;
+}
+
+img.face {
+	margin-top: 60px;
+	margin-right:2px;
+	height: 20px;
+	width: 20px;
+}
+
+a.i {
+	margin-left: 120px;
+}
+
+
+/* --------MEDIA!!-----------*/
+@media screen and (max-width: 478px) {
+	body {
+		font-size: 13px;
+	}
+	span{
+	bottom: 3px;
+	}
+	#center p{
+	padding: 0 5% 0 0;
+}
+#left {
+	width: 100%;
+}
+iFrame{
+	width: 80%;
+	margin: 10%;
+}
+}
+
+
+
+@media screen and (max-width: 740px) {
+	nav {
+		width: 100%;
+		margin-bottom: 10px;
+	}
+	nav ul{
+		list-style: none;
+		margin: 0 auto;
+		padding-left: 0;
+	}
+	nav ul li a{
+		text-align: center;
+		margin-left: 0 auto;
+		width: 100%;
+		border-top: 1px solid #992626;
+		border-right: 0px solid #992626;
+		border-bottom: 1px solid #992626;
+		border-left: 0px solid #992626;
+	}
+	nav ul li a {
+		padding: 8px 0;
+		font-size: 16px;
+	}
+	.left-col {
+		width: 100%;
+	}
+	.sidebar {
+		width: 100%;
+	}
+	.section {
+		float:left;
+		width: 100%;
+		margin: 0;
+	}
+	.section img {
+	width: 100%;
+	height: 350px;
+	}
+	nav ul.cssMenu {
+	list-style: none;
+	margin: 0;
+	padding-left: 0px;
+	}
+	nav ul .some {
+		width: 100%;
+	}
+	.section1 {
+		float: left;
+		width: 100%;
+		margin: 0px;
+	}
+	footer ul {
+		margin-left: 35%;
+	}
+	.i {
+		width: 10%;
+	}
+	#flow {
+		height: 150px;
+	}
+	#aside1 {
+	width: 100%;
+	height: auto;
+	}
+	#center {
+	width: 100%;
+	height: auto;
+	}
+	#aside2 {
+	width: 100%;
+	height: 150px;
+	}
+	#center p{
+	padding: 0 3% 0 0;
+}
+	
+	
+	ul.cssMenu ul 						
+{ 
+        display:none; /*initially menu item is hidden*/
+        position: absolute; /*absolute positioning is important for menu to float*/
+}
+ul.cssMenu li:hover > ul 			
+{ 
+	display:none;
+}
+}	
+
+
+
+

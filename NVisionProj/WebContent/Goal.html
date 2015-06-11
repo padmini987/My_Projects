@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<link rel="stylesheet" href="main.css">
+<meta charset="US-ASCII">
+<title>nVision</title>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.3.2/jquery.min.js"></script>
+
+<script type="text/javascript" src="stepcarousel.js">
+
+/***********************************************
+* Step Carousel Viewer script- (c) Dynamic Drive DHTML code library (www.dynamicdrive.com)
+* Visit http://www.dynamicDrive.com for hundreds of DHTML scripts
+* This notice must stay intact for legal use
+***********************************************/
+
+</script>
+
+<style type="text/css">
+
+.stepcarousel{
+position: relative; /*leave this value alone*/
+border: 0px;
+overflow: scroll; /*leave this value alone*/
+width: 1030px; /*Width of Carousel Viewer itself 275 */
+height: 400px; /*Height should enough to fit largest content's height  200*/
+}
+
+.stepcarousel .belt{
+position: absolute; /*leave this value alone*/
+left: 0;
+top: 0;
+}
+
+.stepcarousel .panel{
+float: left; /*leave this value alone*/
+overflow: hidden; /*clip content that go outside dimensions of holding panel DIV*/
+margin: 0px; /*margin around each panel*/
+width: 1030px; /*Width of each panel holding each content. If removed, widths should be individually defined on each content DIV then.250 */
+}
+
+</style>
+
+
+<script type="text/javascript">
+
+stepcarousel.setup({
+	galleryid: 'mygallery', //id of carousel DIV
+	beltclass: 'belt', //class of inner "belt" DIV containing all the panel DIVs
+	panelclass: 'panel', //class of panel DIVs each holding content
+	autostep: {enable:true, moveby:1, pause:2000},
+	panelbehavior: {speed:500, mode:'fade',wraparound:true, wrapbehavior:'slide', persist:false},
+	defaultbuttons: {enable: false, moveby: 1, leftnav: ['images/arrow_left.png', -10, 225], rightnav: ['images/arrow_right.png', -25, 225]},
+//	statusvars: ['statusA', 'statusB', 'statusC'], //register 3 variables that contain current panel (start), current panel (last), and total panels
+	contenttype: ['inline'] //content setting ['inline'] or ['ajax', 'path_to_external_file']
+})
+
+</script>
+
+
+<script type="text/javascript">
+var image1=new Image()
+image1.src="images/OraERP.jpeg"
+var image2=new Image()
+image2.src="images/OraBusinessIntelligence.jpeg"
+var image3=new Image()
+image3.src="images/OraCustom.jpeg"
+</script>
+
+</head>
+<body>
+<div id="id_wrapper">
+	<div id="callout">
+		<p>Call us at <b>314-275-2131</b></p>
+	</div>
+<header id="top_header">
+<img src="images/nvision_logo.jpg" />
+</header>
+<div id="drop">
+<nav id="top_menu">
+<ul class="cssMenu">
+	<li class="some"><a href="NVision1.html">Home</a></li>
+	<li class="some"><a href="AboutUs.html">AboutUs</a>
+		<ul class="dog">
+			<li><a class="colour" href="Goal.html">Our Goal</a></li>
+			<li><a class="colour" href="Team.html">Our Team</a></li>
+			<li><a class="colour" href="CustomerTestimonials.html">Customer Testimonials</a></li>
+		</ul>
+	</li>
+	<li class="some"><a href="Services.html">Services</a>
+		<ul class="dog">
+			<li><a class="colour" href="ERP.html">ERP Implementation</a></li>
+			<li><a class="colour" href="Bussiness_intell.html">Business Intelligence</a></li>
+			<li><a class="colour" href="custom_app.html">Custom Application Development</a></li>
+			<li><a class="colour" href="customer_aug.html">Staff Augmentation</a></li>
+		</ul>
+	</li>
+	<li class="some"><a href="Resources.html">Resources</a>
+		<ul class="dog">
+			<li><a class="colour" href="OraSupport.html">Oracle Support</a></li>
+			<li><a class="colour" href="OraNetwork.html">Oracle Technology Network</a></li>
+			<li><a class="colour" href="OraUserGroup.html">Oracle Application User Group</a></li>
+			<li><a class="colour" href="ITWhitePaper.html">For IT White Papers</a></li>
+		</ul>
+	</li>
+	<li class="some"><a href="ContactUs.html">ContactUs</a></li>
+</ul>
+</nav>
+</div>
+
+
+<div id="long">
+	<img src="images/ERPpage.jpeg" />
+	<span id="spanname">Our Goal</span>
+</div>
+
+<div id="middle">
+	 <div id="aside1">
+	 	<ul class="sidenames">
+	 	<li><a class="erp" href="Goal.html">Our Goal</a> </li>
+	 	<li><a class="erp" href="Team.html">Our Team</a></li>
+	 	<li><a class="erp" href="CustomerTestimonials.html">Customer Testimonials</a></li>
+	 	</ul> 
+	</div>
+	
+	<div id="center">
+		<p>NVision IT was founded with a vision of providing world class effective and efficient solutions for mid-size to Fortune 500 companies in the business and information technology. The NVision founding team has over forty years of combined experience in information technology, management and research. This experience spans across many industries including defense, health care, education, manufacturing, technology, telecom, utilities, and transportation. At NVision, we focus on client&#8217;s goals and incorporate those goals into the solutions we recommend. This philosophy has enabled us to consistently exceed clients expectations. The most important factor in NVision&#8217;s success is that our objectives such as quality of the services, lower cost of deployment, and rapid implementation are closely aligned with our customer&#8217;s objectives.</p>
+		<p>Irrespective of the size of your organization, implementation of effective information technology solution requires a near perfect coordinated effort among the management, business users, and the implementation partner.</p>
+		<p>Our company goal is to design the products according to the user requirements. We will give our best design implementations to satisfy our customers. We design the products very efficient manner and user friendly.</p>
+		<p>With experience across all major industries, we can create solutions for meeting the most challenging IT problems. We combine deep technology expertise, architecture solutions capability, and program management skills to help you integrate and acquire new capabilities for heterogeneous systems that span both main stream and emerging technologies.</p>
+		<p>Specialists across our global delivery network work with you to provide the skills you need, when you need them, for streamlining, managing and maximizing all systems, applications and enterprise platforms including:</p>
+		<ul id="list">
+			<li>Java/J2EE</li>
+			<li>Microsoft .Net</li>
+			<li>Portals and content Management</li>
+			<li>SOA</li>
+			<li>Messaging and integration</li>
+			<li>BigData</li>
+		</ul>
+		<p>Our stability, strong financial position, and success as a provider of winning solutions have propelled our growth into a large IT consulting company. NVison does business with many of the largest companies in the United States.</p>
+	</div>
+	
+	<div id="aside2">
+		<table id="table">
+		<tr><td id="tabdata">
+		<a id="oraerpimg" href="https://www.oracle.com/applications/enterprise-resource-planning/erp-cloud-midsize-companies.html" target="_blank"><img name="slide" src="images/OraERP.jpeg"></a></td>
+		<td>		</td></tr>
+		</table>
+	</div>
+</div>
+
+<script>
+//variable that will increment through the images
+var step=1
+function slideit(){
+//if browser does not support the image object, exit.
+if (!document.images)
+return
+document.images.slide.src=eval("image"+step+".src")
+if (step<3)
+step++
+else
+step=1
+//call function "slideit()" every 2.5 seconds
+setTimeout("slideit()",2500)
+}
+slideit()
+
+</script>
+
+
+
+<footer>
+	<div class="section1">
+				<p>Contact Us</p>
+				<p><b>314-123-4567</b><br>
+				743 Spirit 40 Park Drive<br>
+				Suite 204<br>
+				Chesterfield, MO 63005</p>
+			</div>
+			<div class="section1">
+			<p>Connect with us!</p>
+			<ul>
+					<li class="i"><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/facebook1.png" /></a></li>
+					<li class="i"><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/googleplus.png" /></a></li>
+					<li class="i"><a href="#"><img src="http://www.w3newbie.com/wp-content/uploads/twitter1.png" /></a></li>			
+			</ul>
+			</div>
+		<div class="section1">
+			<img id="flow" src="images/CreativeWD.jpeg" />
+			</div>
+		</footer>
+		
+		
+<div id="belowfoot">
+<table align="center" border="0"  cellpadding="2" cellspacing="2">
+<tr><td>Copyright&copy;2009-2012</td>
+	<td>Nvision IT, LLC.</td>
+	<td>All rights reserved.</td></tr></table>
+	<table align="center" border="0"  cellpadding="2" cellspacing="2"><tr>
+	<td><a href="TermsOfUse.html">Terms of Use</a></td><td>|</td>
+	<td><a href="PrivacyPolicy.html">Privacy Policy</a></td><td>|</td>
+	<td><a href="ContactUs.html">Contact us</a></td>
+	</tr>
+</table>
+</div>
+
+
+
+</div>
+
+
+</body>
+</html>
