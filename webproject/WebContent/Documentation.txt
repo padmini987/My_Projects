@@ -1,0 +1,8 @@
+Read me File :
+-------------
+PreRequisite: This project is build using java 7 and it is deployed on tomcat server.
+
+Designed Objective: User login and logout using servlet programming. Database is not used.
+
+
+Thanks 
