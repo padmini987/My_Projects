@@ -1,0 +1,6 @@
+Read me File :
+-------------
+PreRequisite: This project is build using java and it is deployed on tomcat server and also mySql database.
+
+Designed Objective: Data retrieval from database using servlet programming.
+Thanks 

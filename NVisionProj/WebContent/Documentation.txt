@@ -1,0 +1,8 @@
+Read me File :
+-------------
+PreRequisite: This project is build using Java 7 and it is deployed on tomcat server(v6.0).
+
+Designed Objective: Developed using Html 5 and CSS.
+
+
+Thanks 
